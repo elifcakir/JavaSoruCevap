@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        int x,y,z;
+      /*  int x,y,z;
         double ortalama;
 
         Scanner tara =new Scanner(System.in);
@@ -22,7 +22,20 @@ public class Main {
 
         ortalama=(x+y+z)/3d;
 
-        System.out.println("sonuç ="+ ortalama);
+        System.out.println("sonuç ="+ ortalama);*/
+
+        String isim ;
+        Scanner tara =new Scanner(System.in);
+        System.out.println("adınızı girin");
+        isim=tara.next();
+
+        for(int i=0;i<5;i++)
+        {
+            System.out.println("isminiz:"+isim);
+        }
+
+
+
 
     }
 }
